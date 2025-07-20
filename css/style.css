@@ -232,6 +232,7 @@ section h2 {
 
 .details-top p {
     margin: 20px 0;
+    text-align: justify;
 }
 
 .details-top .btn {
