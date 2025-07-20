@@ -47,7 +47,7 @@ ul {
 
 .btn {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border: 1px solid var(--color-secondary);
     border-radius: 5px;
     color: #fff;
@@ -316,12 +316,20 @@ section h2 {
     color: #fff;
 }
 
-.pagination {
-    margin-top: 20px;
+#search-results-heading i {
+    color: #eed6d6;
+}
+
+#pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-counter {
     margin-top: 10px;
+    text-align: center;
 }
 
 /* Alert */
@@ -337,4 +345,25 @@ section h2 {
 
 .error {
     background: red;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+    .details-top {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
 }
